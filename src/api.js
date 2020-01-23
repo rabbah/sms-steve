@@ -1,6 +1,6 @@
 const send_sms = options => {
     return window
-        .fetch(`https://sms-22448-steve.herokuapp.com/api/v1/web-sms`, {
+        .fetch(`/api/default/web-sms`, {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"

@@ -1,5 +1,10 @@
+*~
 build
 web/.built
 node_modules
 .vscode
 .env
+virtualenv
+.nimbella
+__deployer__.zip
+__pycache__
