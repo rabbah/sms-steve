@@ -1,5 +1,5 @@
 build
-web
+web/.built
 node_modules
 .vscode
 .env
