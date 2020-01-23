@@ -193,14 +193,14 @@ class InputForm extends Component {
                     <h2>Just like using your phone...</h2>
                     <h3>...except a web app...</h3>
                     <h4>...and also dumber.</h4>
-                    <h5>Enter your details and message below, then hit send to SMS Steve.</h5>
+                    <h5>Enter your details and message below, then hit send to SMS {process.env.REACT_APP_MY_NAME}.</h5>
                     <div className="sr-combo-inputs" style={style}>
                         <div className="sr-combo-inputs-row">
                             <p className="no-margin-bottom text-left">Your name:</p>
                             <input
                                 type="text"
                                 name="sender_name"
-                                placeholder="I can't really make you put in your real name, can I?"
+                                placeholder={`Name - This will tell ${process.env.REACT_APP_MY_NAME} who's texting.`}
                                 className="sr-input"
                                 autoComplete="cardholder"
                                 onChange={this.handleChange}
