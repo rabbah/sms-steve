@@ -32,8 +32,6 @@ I made the following minimal changes to the original code:
 - Changed the [API url](https://github.com/rabbah/sms-steve/blob/b3a8c9d3689b2eef98c84c42c2446ead2b06ce2e/src/api.js#L3) to point to the Nimbella based implementation in this project. The frontend and backend are deployed to the same Nimbella cloud project. Nimbella takes care of automatically separating static assets for a CDN and routing API calls to the backend logic.
 - Made the [frontend more generic](https://github.com/rabbah/sms-steve/commit/f748db79401bdd2b2dec3acf422ba9d6bad17b1f) so others who aren't named Steve can use this.
 
-I am about to tell Steve what I've done. I hope he likes it. You can learn more about [Steve on his webpage](http://www.stevehind.me/).
-
 ### How to deploy your own SMS web app
 
 You can deploy your own version of this app to the Nimbella cloud.
@@ -94,4 +92,4 @@ I will enhance this app further so there's a public API endpoint to
 see all messages sent through the app. This will showcase Nimbella's
 integrated data services. With the Nimbella cloud, you never run a
 server or provision a datastore. Because you should just build cool
-apps, like Steve, and not worry about the rest.
+apps, like [Steve](http://www.stevehind.me/), and not worry about the rest.
